@@ -2,7 +2,7 @@
 // @name         DeepSeek 提示词增强（DSPM）
 // @name:en      DeepSeek Prompt Enhancer
 // @namespace    https://github.com/victorymt/deepseek-prompt-enhancer
-// @version      0.2.0
+// @version      0.2.1
 // @description  提示词模板管理：{{变量}} 插入输入框，支持默认值、下拉选择、多行、选填；桌面 Tab 跳格，移动端表单填充。
 // @description:en  Prompt template manager for DeepSeek: insert {{variables}}, with defaults, dropdowns, multiline and optional fields.
 // @author       victorymt
@@ -12,8 +12,8 @@
 // @grant        none
 // @homepageURL  https://github.com/victorymt/deepseek-prompt-enhancer
 // @supportURL   https://github.com/victorymt/deepseek-prompt-enhancer/issues
-// @downloadURL  https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js
-// @updateURL    https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/victorymt/deepseek-prompt-enhancer@main/dspm.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/victorymt/deepseek-prompt-enhancer@main/dspm.user.js
 // ==/UserScript==
 
 /**
@@ -1504,7 +1504,7 @@
 
     window.__DSPM__ = {
       alive: true,
-      version: '0.2.0',
+      version: '0.2.1',
       IO, Store, UI, Session, parse, scan, buildInsert, insertPrompt, insertRaw, presetOf,
       destroy() {
         try { Session.end(); } catch (_) {}
