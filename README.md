@@ -4,7 +4,7 @@
 
 纯本地运行，**不发送任何网络请求**，提示词只存在你自己浏览器的 localStorage 里。
 
-![版本](https://img.shields.io/badge/version-0.2.0-blue)
+![版本](https://img.shields.io/badge/version-0.2.1-blue)
 ![许可](https://img.shields.io/badge/license-MIT-green)
 
 ## 特性
@@ -23,9 +23,20 @@
 ## 安装
 
 1. 装一个用户脚本管理器：[Tampermonkey](https://www.tampermonkey.net/) 或 [Violentmonkey](https://violentmonkey.github.io/)
-2. 打开 **[dspm.user.js](https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js)**
-3. 脚本管理器会弹出安装页，点「安装」
+2. 点下面的安装链接（脚本管理器会弹出安装页）
+3. 点「安装」
 4. 打开或刷新 <https://chat.deepseek.com>
+
+**安装链接（CDN，推荐）**
+
+<https://cdn.jsdelivr.net/gh/victorymt/deepseek-prompt-enhancer@main/dspm.user.js>
+
+> 用 CDN 是因为 `raw.githubusercontent.com` 在国内经常连不上。脚本的 `@updateURL` 也指向 CDN，这样后续更新能正常拉取。
+
+其他地址：
+
+- GitHub 直链（网络正常时可用）：<https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js>
+- 仓库首页：<https://github.com/victorymt/deepseek-prompt-enhancer>
 
 装好后输入框旁边会多一个「提示词」按钮，和 DeepThink / Search 并排。
 
