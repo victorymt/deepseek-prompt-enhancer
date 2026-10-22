@@ -4,7 +4,7 @@
 
 纯本地运行，**不发送任何网络请求**，提示词只存在你自己浏览器的 localStorage 里。
 
-![版本](https://img.shields.io/badge/version-0.2.1-blue)
+![版本](https://img.shields.io/badge/version-0.2.2-blue)
 ![许可](https://img.shields.io/badge/license-MIT-green)
 
 ## 特性
@@ -27,16 +27,19 @@
 3. 点「安装」
 4. 打开或刷新 <https://chat.deepseek.com>
 
-**安装链接（CDN，推荐）**
+**安装链接**
 
-<https://cdn.jsdelivr.net/gh/victorymt/deepseek-prompt-enhancer@main/dspm.user.js>
+<https://victorymt.github.io/deepseek-prompt-enhancer/dspm.user.js>
 
-> 用 CDN 是因为 `raw.githubusercontent.com` 在国内经常连不上。脚本的 `@updateURL` 也指向 CDN，这样后续更新能正常拉取。
+> 用 GitHub Pages 是因为 `raw.githubusercontent.com` 在国内经常连不上，而 Pages 直连可用、更新后立即生效。脚本的 `@updateURL` 也指向这里，后续更新能正常拉取。
 
-其他地址：
+备用地址（网络环境不同，择一可用）：
 
-- GitHub 直链（网络正常时可用）：<https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js>
+- jsDelivr：<https://cdn.jsdelivr.net/gh/victorymt/deepseek-prompt-enhancer@main/dspm.user.js>
+- GitHub 直链：<https://raw.githubusercontent.com/victorymt/deepseek-prompt-enhancer/main/dspm.user.js>
 - 仓库首页：<https://github.com/victorymt/deepseek-prompt-enhancer>
+
+> jsDelivr 对 `@main` 别名有较长缓存，可能滞后于最新版；要拿最新版请用上面的 Pages 地址，或把 `@main` 换成具体 commit SHA。
 
 装好后输入框旁边会多一个「提示词」按钮，和 DeepThink / Search 并排。
 
